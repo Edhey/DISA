@@ -1,0 +1,197 @@
+{
+  "remote.SSH.remotePlatform": {
+    "10.6.128.243": "linux",
+    "10.6.130.235": "linux",
+    "10.6.128.143": "linux",
+    "10.6.131.78": "linux",
+    "10.6.128.103": "linux",
+    "10.6.130.166": "linux",
+    "10.6.130.251": "linux",
+    "CyA": "linux",
+    "LPP": "linux",
+    "PAI": "linux",
+    "PL": "linux",
+    "*.gitpod.io": "linux",
+    "*.gitpod.local": "linux",
+    "*.gitpod.remote": "linux",
+    "ullesitpl24-visualstudi-eco2i8ouzqp.vss.gitpod.io": "linux"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    80,
+    88
+  ],
+  // "editor.wordWrap": "wordWrapColumn",
+  // "editor.wordWrapColumn": 80,
+  "git.confirmSync": false,
+  "editor.fontSize": 18,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    },
+    "Command Prompt": {
+      "path": "C:\\WINDOWS\\System32\\cmd.exe",
+      "args": [],
+      "icon": {
+        "id": "terminal-cmd"
+      }
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-git-bash",
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": [
+        "--login",
+        "-i"
+      ]
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
+    },
+    "Ubuntu-E (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-E"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-E (WSL)",
+  "explorer.confirmDragAndDrop": false,
+  "C_Cpp.doxygen.generatedStyle": "/**",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, UseTab: Never, IndentWidth: 2, TabWidth: 2, BreakBeforeBraces: Attach, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 80, AccessModifierOffset: -2 }",
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.default.compilerPath": "cl.exe",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.defaultFormatter": "GitHub.copilot",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "cpp": true,
+    "cmake": true,
+    "prolog": true,
+    "ruby": true,
+    "javascript": true,
+    "java": true
+  },
+  "files.autoSave": "afterDelay",
+  "C_Cpp.default.cppStandard": "gnu++23",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "editor.minimap.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "explorer.confirmPasteNative": false,
+  "remote.SSH.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+  ],
+  "dev.containers.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[r]": {
+    "editor.defaultFormatter": "REditorSupport.r"
+  },
+  "notebook.editorOptionsCustomizations": {
+    "editor.tabSize": 4,
+    "editor.indentSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "eslint.format.enable": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "[langium]": {
+    "editor.defaultFormatter": "langium.langium-vscode"
+  },
+  "diffEditor.maxComputationTime": 0,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "dotnet.projects.enableFileBasedPrograms": false,
+  "python.defaultInterpreterPath": "C:\\Users\\himar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.rulers": []
+  },
+  "terminal.integrated.commandsToSkipShell": [
+    "matlab.interrupt"
+  ],
+  "workbench.colorTheme": "Night Owl",
+  "geminicodeassist.inlineSuggestions.enableAuto": false,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80,
+      88
+    ],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "java.jdt.ls.java.home": "",
+  "[matlab]": {
+    "editor.defaultFormatter": "MathWorks.language-matlab"
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "monosans.djlint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "http.systemCertificatesNode": true,
+  "github.copilot.selectedCompletionModel": "",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnknownMemberType": "none",
+    "reportUnknownVariableType": "none",
+    "reportUnknownArgumentType": "none"
+  },
+  "remote.autoForwardPortsSource": "hybrid"
+}
